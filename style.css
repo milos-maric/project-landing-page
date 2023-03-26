@@ -85,10 +85,10 @@ button {
 /* Section 1 */
 
 .section-1 {
-        flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 90px;
 }
 
 .heading-2 {
@@ -100,6 +100,7 @@ button {
 
 .boxes {
         display: flex;
+        flex-wrap: wrap;
         gap: 50px;
         justify-content: center;
 }
@@ -115,4 +116,28 @@ button {
 .boxes div {
         max-width: 160px;
         text-align: center;
+}
+
+/* Section 2 */
+
+.section-2 {
+        background-color: #E5E7EB;
+        padding: 90px 0;
+        display: flex;
+        flex-direction: column;
+}
+
+.section-2 .quote {
+        max-width: 750px;
+        align-self: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+}
+
+.section-2 .signature {
+        align-self: center;
+        font-size: 28px;
+        font-weight: 600;
+        margin-left: 400px;
 }
