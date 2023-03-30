@@ -79,6 +79,8 @@ button {
         padding: 6px 20px;
         border-radius: 7px;
         border: 1px solid #3882F6;
+        font-size: 16px;
+        font-weight: 600;
 }
 
 
@@ -143,3 +145,39 @@ button {
 }
 
 /* Section 3 */
+
+.section-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.section-3 .container {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        color: #E5E7EB;
+        background-color: #3882F6;
+        font-size: 18px;
+        border-radius: 8px;
+        max-width: 1000px;
+        margin: 100px 0;
+        padding: 50px 130px;
+}
+
+.container .action {
+        color: #F9FAF8;
+        font-size: 22px;
+        font-weight: 600;
+}
+
+.button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.button button {
+        color: #F9FAF8;
+        border: 2px solid #F9FAF8;
+}
